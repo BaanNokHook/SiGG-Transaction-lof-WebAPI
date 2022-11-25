@@ -1,0 +1,78 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>SiGG_Transaction_lof_WebAPI</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\net6.0\ASP_RESTful_Web_API.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net6.0\ASP_RESTful_Web_API.GlobalUsings.g.cs" />
+    <Compile Include="obj\Debug\net6.0\ASP_RESTful_Web_API.MvcApplicationPartsAssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net6.0\SiGG-Transaction-lof-WebAPI.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net6.0\SiGG-Transaction-lof-WebAPI.GlobalUsings.g.cs" />
+    <Compile Include="obj\Debug\net6.0\SiGG-Transaction-lof-WebAPI.MvcApplicationPartsAssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\net6.0\appsettings.Development.json" />
+    <Content Include="bin\Debug\net6.0\appsettings.json" />
+    <Content Include="bin\Debug\net6.0\SiGG-Transaction-lof-WebAPI.deps.json" />
+    <Content Include="bin\Debug\net6.0\SiGG-Transaction-lof-WebAPI.runtimeconfig.json" />
+    <Content Include="obj\ASP_RESTful_Web_API.csproj.nuget.dgspec.json" />
+    <Content Include="obj\Debug\net6.0\ASP_RESTful_Web_API.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\net6.0\SiGG-Transaction-lof-WebAPI.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\net6.0\staticwebassets.build.json" />
+    <Content Include="obj\project.assets.json" />
+    <Content Include="obj\SiGG-Transaction-lof-WebAPI.csproj.nuget.dgspec.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+    <Folder Include="obj\Debug\net6.0\staticwebassets\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0\Microsoft.OpenApi.dll" />
+    <None Include="bin\Debug\net6.0\SiGG-Transaction-lof-WebAPI.dll" />
+    <None Include="bin\Debug\net6.0\SiGG-Transaction-lof-WebAPI.exe" />
+    <None Include="bin\Debug\net6.0\SiGG-Transaction-lof-WebAPI.pdb" />
+    <None Include="bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll" />
+    <None Include="bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll" />
+    <None Include="bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll" />
+    <None Include="obj\ASP_RESTful_Web_API.csproj.nuget.g.props" />
+    <None Include="obj\ASP_RESTful_Web_API.csproj.nuget.g.targets" />
+    <None Include="obj\Debug\net6.0\apphost.exe" />
+    <None Include="obj\Debug\net6.0\ASP_RESTful_Web_API.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net6.0\ASP_RESTful_Web_API.assets.cache" />
+    <None Include="obj\Debug\net6.0\ASP_RESTful_Web_API.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\net6.0\ASP_RESTful_Web_API.csproj.BuildWithSkipAnalyzers" />
+    <None Include="obj\Debug\net6.0\ASP_RESTful_Web_API.csproj.CopyComplete" />
+    <None Include="obj\Debug\net6.0\ASP_RESTful_Web_API.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\net6.0\ASP_RESTful_Web_API.dll" />
+    <None Include="obj\Debug\net6.0\ASP_RESTful_Web_API.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Debug\net6.0\ASP_RESTful_Web_API.genruntimeconfig.cache" />
+    <None Include="obj\Debug\net6.0\ASP_RESTful_Web_API.MvcApplicationPartsAssemblyInfo.cache" />
+    <None Include="obj\Debug\net6.0\ASP_RESTful_Web_API.pdb" />
+    <None Include="obj\Debug\net6.0\refint\SiGG-Transaction-lof-WebAPI.dll" />
+    <None Include="obj\Debug\net6.0\ref\SiGG-Transaction-lof-WebAPI.dll" />
+    <None Include="obj\Debug\net6.0\SiGG-Transaction-lof-WebAPI.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net6.0\SiGG-Transaction-lof-WebAPI.assets.cache" />
+    <None Include="obj\Debug\net6.0\SiGG-Transaction-lof-WebAPI.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\net6.0\SiGG-Transaction-lof-WebAPI.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\net6.0\SiGG-Transaction-lof-WebAPI.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Debug\net6.0\SiGG-Transaction-lof-WebAPI.MvcApplicationPartsAssemblyInfo.cache" />
+    <None Include="obj\project.nuget.cache" />
+    <None Include="obj\SiGG-Transaction-lof-WebAPI.csproj.nuget.g.props" />
+    <None Include="obj\SiGG-Transaction-lof-WebAPI.csproj.nuget.g.targets" />
+    <None Include="obj\staticwebassets.pack.sentinel" />
+  </ItemGroup>
+
+</Project>
